@@ -29,6 +29,24 @@ download the pretrained model from here https://drive.google.com/drive/folders/1
 
 There should be a "run2" folder within the "checkpoint" folder. Copy the whole thing (whole checkpoint folder and everything in it) and paste it in the same folder as the code files.
 
+Your file structure should look something like this
+
+├── app.py
+├── auto_askreddit.py
+├── checkpoint
+│   └── run2
+│       ├── checkpoint
+│       ├── counter
+│       ├── encoder.json
+│       ├── events.out.tfevents.1588080283.55244cda9d12
+│       ├── hparams.json
+│       ├── model-825.data-00000-of-00001
+│       ├── model-825.index
+│       ├── model-825.meta
+│       └── vocab.bpe
+└── requirements.txt
+
+
 First run the app.py file to launch a flask server that generates the titles and returns them (GET).
 
 ```Python
