@@ -16,7 +16,7 @@ if there is any error while installing from the requirements file, you can mannu
 
 ```sh
 praw
-Flask
+flask
 gpt-2-simple
 tensorflow 1.x
 ```
