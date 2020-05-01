@@ -31,6 +31,7 @@ There should be a "run2" folder within the "checkpoint" folder. Copy the whole t
 
 Your file structure should look something like this
 
+```sh
 ├── app.py
 ├── auto_askreddit.py
 ├── checkpoint
@@ -45,7 +46,7 @@ Your file structure should look something like this
 │       ├── model-825.meta
 │       └── vocab.bpe
 └── requirements.txt
-
+```
 
 First run the app.py file to launch a flask server that generates the titles and returns them (GET).
 
