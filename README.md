@@ -27,7 +27,7 @@ The code consists of two files app.py and auto_askreddit.py
 
 download the pretrained model from here https://drive.google.com/drive/folders/1ojZDnyCbau5fdJzE0DwyhOo1RS_hp7Fq?usp=sharing
 
-There should be a "run2" folder within the "checkpoint" folder. Copy the whole thing (whole checkpoint filder and everything in it) and paste it in the same folder as the code files.
+There should be a "run2" folder within the "checkpoint" folder. Copy the whole thing (whole checkpoint folder and everything in it) and paste it in the same folder as the code files.
 
 First run the app.py file to launch a flask server that generates the titles and returns them (GET).
 
